@@ -9,9 +9,9 @@
  */
 int main(void)
 {
-        /* Write MESSAGE to the standard error */
-        write(2, MESSAGE, sizeof(MESSAGE) - 1);
+/* Write MESSAGE to the standard error */
+write(2, MESSAGE, sizeof(MESSAGE) - 1);
 
-        /* Return 1 to indicate an error occurred */
-        return (1);
+/* Return 1 to indicate an error occurred */
+return (1);
 }
